@@ -1,0 +1,207 @@
+ body{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} 
+.img {
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+.search {
+    position: relative;
+}
+
+.searchlogo {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+input:hover {
+    cursor: text;
+    color: #45a049;
+    background-color: gainsboro;
+
+}
+
+input:active {
+    cursor: text;
+    color: blue;
+    background-color: transparent;
+}
+
+header {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20241029/pngtree-watercolor-pastel-rainbow-colored-blurred-background-image_16442754.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    position: fixed;
+    top: 0;
+    width: 1250px;
+    text-shadow: 2px 2px 7px gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ,20px;
+    height: 80px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.store-name {
+    font-size: 1.5em;
+    color: rgb(22, 61, 38);
+}
+.img:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(35, 53, 40);
+}
+
+a:hover {
+    color: rgb(112, 102, 5);
+}
+
+a:active {
+    color: rgb(12, 105, 105);
+}
+
+.title {
+    text-align: center;
+    color: rgb(22, 61, 38);
+    padding: 5px;
+    flex-grow: 1;
+}
+.title:hover{
+     cursor: pointer;
+  transform:scale(1.5);
+text-shadow: 5px 5px 5px grey;
+}
+
+ .btn {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: auto;
+}
+
+.btn:hover {
+    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+.olx {
+    margin-top: 80px;
+    /* Space for fixed header */
+    display: flex;
+    flex-direction: row;
+    /* Adjust min-height to account for fixed header and footer */
+    min-height: calc(100vh - 80px - 280px);
+    /* Approx footer height for desktop is around 250-280px */
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin-right: 200px;
+}
+.mag {
+    width: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+cursor: pointer;
+}
+
+
+.mag img {
+    max-width: 1000px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mag img:hover {
+    transform: scale(1.2);
+}
+
+.my {
+    margin-bottom: 10px;
+    width: 100px;
+    overflow: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.top-btn:hover{
+    background-color: #0056b3;
+}
+
+
